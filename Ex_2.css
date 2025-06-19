@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh; 
+  flex-flow: row wrap;
+  justify-content: center;     
+  align-items: center;         
+  align-content: center;       
+  gap: 20px;
+  background-color: #f0f0f0;
+}
+
+.item {
+  background-color: #3498db;
+  color: white;
+  padding: 40px;
+  font-size: 18px;
+  border-radius: 8px;
+  text-align: center;
+}
